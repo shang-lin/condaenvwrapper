@@ -19,9 +19,9 @@ source ~/condaenvwrapper/condaenvwrapper.sh
 
 `lsvirtualenv` - Display all existing conda environments.
 
-`mkvirtualenv *name_of_env*` - Creates a new conda environment, automatically installing ipython and spyder-app (the Spyder IDE that comes with the Anaconda distribution).
+`mkvirtualenv` *name_of_env* - Creates a new conda environment, automatically installing ipython and spyder-app (the Spyder IDE that comes with the Anaconda distribution).
 
-`rmvirtualenv *name_of_env*` - Deletes a conda environment with the given name.
+`rmvirtualenv` *name_of_env* - Deletes a conda environment with the given name.
 
 `cdvirtualenv` - Changes to the directory of the current conda environment.
 
