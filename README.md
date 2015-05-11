@@ -17,14 +17,14 @@ source ~/condaenvwrapper/condaenvwrapper.sh
 
 ## Usage
 
-lsvirtualenv - Display all existing conda environments.
+`lsvirtualenv` - Display all existing conda environments.
 
-mkvirtualenv *name_of_env* - Creates a new conda environment, automatically installing ipython and spyder-app (the Spyder IDE that comes with the Anaconda distribution).
+`mkvirtualenv *name_of_env*` - Creates a new conda environment, automatically installing ipython and spyder-app (the Spyder IDE that comes with the Anaconda distribution).
 
-rmvirtualenv *name_of_env* - Deletes a conda environment with the given name.
+`rmvirtualenv *name_of_env*` - Deletes a conda environment with the given name.
 
-cdvirtualenv - Changes to the directory of the current conda environment.
+`cdvirtualenv` - Changes to the directory of the current conda environment.
 
-cdsitepackages - Changes to the site-packages directory of the current conda environment.
+`cdsitepackages` - Changes to the site-packages directory of the current conda environment.
 
 
